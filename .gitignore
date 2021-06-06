@@ -1,54 +1,30 @@
-*.swp
-*.swo
+# Created by https://www.toptal.com/developers/gitignore/api/windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
-# Logs
-logs
-*.log
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Runtime data
-pids
-*.pid
-*.seed
-scTopics
+# Dump file
+*.stackdump
 
-# Coverage directory used by tools like istanbul
-coverage
-coverage.json
-coverageEnv
+# Folder config file
+[Dd]esktop.ini
 
-# temporary artifact from solidity-coverage
-allFiredEvents
-.coverage_artifacts
-.coverage_cache
-.coverage_contracts
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# node-waf configuration
-.lock-wscript
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# Dependency directory
-node_modules
+# Windows shortcuts
+*.lnk
 
-# Debug log from npm
-npm-debug.log
-
-# local env variables
-.env
-
-# truffle build directory
-/build
-
-# Hardhat files
-/artifacts
-/cache
-
-# macOS
-.DS_Store
-
-# truffle
-.node-xmlhttprequest-*
-
-# npm package
-package-lock.json
-
-# IntelliJ IDE
-.idea
+# End of https://www.toptal.com/developers/gitignore/api/windows
